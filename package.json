@@ -1,4 +1,17 @@
 {
+  "name": "atividade-pratica-frontend---com-back",
+  "version": "1.0.0",
+  "description": "este apliacacao...",
+  "main": "index.html",
+  "scripts": {
+    "dev": "servor --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "frontend"
+  },
+  "author": "Gabriel V",
+  "license": "MIT",
   "dependencies": {
     "servor": "^4.0.2"
   }
