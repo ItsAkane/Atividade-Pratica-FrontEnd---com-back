@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image"
 
-type BlogCardProps = {
+type HeadIconProps = {
     imageSrc: StaticImageData
     imageAlt: string
 }
 
-export function HeaderIcon({ imageSrc, imageAlt }: BlogCardProps) {
+export function HeaderIcon({ imageSrc, imageAlt }: HeadIconProps) {
     return (
         <div className="text-center mx-8 mt-8 mb-4 lg:border-b-0 border-b-2 border-gray-300 pb-2">
             <div className="flex justify-center mt-4 pt-12">

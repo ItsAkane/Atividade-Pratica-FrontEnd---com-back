@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from "next/image"
 
-type BlogCardProps = {
+type PortifolioCardProps = {
     imageSrc: StaticImageData
     imageAlt: string
 }
 
 
-export function PortifolioBanner({ imageSrc, imageAlt }: BlogCardProps) {
+export function PortifolioBanner({ imageSrc, imageAlt }: PortifolioCardProps) {
     return (
         <div className="bg-white rounded shadow-md overflow-hidden border my-4">
             <Image src={imageSrc} alt={imageAlt} className="w-full h-auto" />
